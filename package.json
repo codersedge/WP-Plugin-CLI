@@ -1,0 +1,17 @@
+{
+  "name": "wp-plugin-cli",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Ruzan Mohamed",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "wpp": "./dist/index.js"
+  },
+  "dependencies": {
+    "figlet": "^1.2.1"
+  }
+}
