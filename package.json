@@ -6,12 +6,16 @@
   "license": "ISC",
   "main": "index.js",
   "scripts": {
+    "build": "tsc && cp -r ./templates/ ./dist/templates/", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
     "wpp": "./dist/index.js"
   },
   "dependencies": {
-    "figlet": "^1.2.1"
+    "@types/node": "^11.13.2",
+    "commander": "^2.20.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.2"
   }
 }
